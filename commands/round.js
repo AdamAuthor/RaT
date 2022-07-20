@@ -13,7 +13,7 @@ module.exports = async (client, message, args, argsF) => {
         message.channel.send({
             embeds: [
                 {
-                    title: `Open Government: ${argsF[0]}\nOpen Opposition: ${argsF[1]}\nClosed Government: ${argsF[2]}\nClosed Opposition: ${argsF[3]}`,
+                    title: `OG: ${argsF[0]}\nOO: ${argsF[1]}\nCG: ${argsF[2]}\nCO: ${argsF[3]}`,
                     color: 'GREEN'
                 }
             ]
