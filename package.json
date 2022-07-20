@@ -1,0 +1,19 @@
+{
+  "name": "rat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon Client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "13.8.1",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.4.5",
+    "nodemon": "^2.0.19"
+  }
+}
