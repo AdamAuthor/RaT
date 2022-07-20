@@ -24,5 +24,3 @@ for (const file of commandFiles) {
         client.commands.set(el, command)
     })
 }
-
-console.log(client.commands)
